@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="com.googlecode.owasp-java-html-sanitizer"
+		module="owasp-java-html-sanitizer"
+		revision="20190610.5z"
+		status="release"
+		publication="20240130213141"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="owasp-java-html-sanitizer" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>

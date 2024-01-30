@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="com.101tec"
+		module="zkclient"
+		revision="0.1.0"
+		status="release"
+		publication="20240130213138"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="zkclient" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>

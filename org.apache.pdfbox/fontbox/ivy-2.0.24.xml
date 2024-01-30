@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="org.apache.pdfbox"
+		module="fontbox"
+		revision="2.0.24"
+		status="release"
+		publication="20240130213233"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="fontbox" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>

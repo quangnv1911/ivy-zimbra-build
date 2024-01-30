@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="com.fasterxml.jackson.dataformat"
+		module="jackson-dataformat-xml"
+		revision="2.9.2"
+		status="release"
+		publication="20240130212618"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="jackson-dataformat-xml" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>

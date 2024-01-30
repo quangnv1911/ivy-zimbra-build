@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="zimbra"
+		module="zm-soap"
+		revision="8.7.6.1706237411"
+		status="release"
+		publication="20240130213940"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="zm-soap" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>

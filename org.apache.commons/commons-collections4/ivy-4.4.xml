@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="org.apache.commons"
+		module="commons-collections4"
+		revision="4.4"
+		status="release"
+		publication="20240130213236"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="commons-collections4" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>

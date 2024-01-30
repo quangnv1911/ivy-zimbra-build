@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="net.spy"
+		module="spymemcached"
+		revision="2.12.1"
+		status="release"
+		publication="20240130212340"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="spymemcached" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>

@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="zimbra"
+		module="zm-store"
+		revision="working@QuangKhongWjbu"
+		conf="default"
+		confs="default"
+		date="20240130213939"/>
+	<dependencies>
+		<module organisation="org.apache.xmlgraphics" name="batik-util">
+			<revision name="1.14" status="release" pubdate="20240130213240" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="127">
+				<metadata-artifact status="no" details="" size="435" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.xmlgraphics\batik-util\ivy-1.14.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.14" rev-constraint-default="1.14" rev-constraint-dynamic="1.14" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="batik-util" type="jar" ext="jar" status="no" details="" size="127477" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.xmlgraphics\batik-util\jars\batik-util-1.14.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-util/1.14/batik-util-1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.xmlgraphics" name="batik-i18n">
+			<revision name="1.14" status="release" pubdate="20240130213240" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="126">
+				<metadata-artifact status="no" details="" size="435" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.xmlgraphics\batik-i18n\ivy-1.14.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.14" rev-constraint-default="1.14" rev-constraint-dynamic="1.14" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="batik-i18n" type="jar" ext="jar" status="no" details="" size="11466" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.xmlgraphics\batik-i18n\jars\batik-i18n-1.14.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-i18n/1.14/batik-i18n-1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.adobe.xmp" name="xmpcore">
+			<revision name="6.1.11" status="release" pubdate="20240130213239" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="125">
+				<metadata-artifact status="no" details="" size="422" time="0" location="C:\Users\quang\.ivy2\cache\com.adobe.xmp\xmpcore\ivy-6.1.11.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="6.1.11" rev-constraint-default="6.1.11" rev-constraint-dynamic="6.1.11" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="xmpcore" type="jar" ext="jar" status="no" details="" size="142953" time="0" location="C:\Users\quang\.ivy2\cache\com.adobe.xmp\xmpcore\jars\xmpcore-6.1.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/6.1.11/xmpcore-6.1.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.drewnoakes" name="metadata-extractor">
+			<revision name="2.16.0" status="release" pubdate="20240130213238" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="124">
+				<metadata-artifact status="no" details="" size="445" time="0" location="C:\Users\quang\.ivy2\cache\com.drewnoakes\metadata-extractor\ivy-2.16.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.16.0" rev-constraint-default="2.16.0" rev-constraint-dynamic="2.16.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="metadata-extractor" type="jar" ext="jar" status="no" details="" size="737165" time="0" location="C:\Users\quang\.ivy2\cache\com.drewnoakes\metadata-extractor\jars\metadata-extractor-2.16.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.16.0/metadata-extractor-2.16.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.9" status="release" pubdate="20240130213238" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="123">
+				<metadata-artifact status="no" details="" size="407" time="0" location="C:\Users\quang\.ivy2\cache\org.tukaani\xz\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="xz" type="jar" ext="jar" status="no" details="" size="116013" time="0" location="C:\Users\quang\.ivy2\cache\org.tukaani\xz\jars\xz-1.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.6.1" status="release" pubdate="20240130213237" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="122">
+				<metadata-artifact status="no" details="" size="438" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-math3\ivy-3.6.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="3.6.1" rev-constraint-default="3.6.1" rev-constraint-dynamic="3.6.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-math3" type="jar" ext="jar" status="no" details="" size="2213560" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-math3\jars\commons-math3-3.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.zaxxer" name="SparseBitSet">
+			<revision name="1.2" status="release" pubdate="20240130213237" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="121">
+				<metadata-artifact status="no" details="" size="426" time="0" location="C:\Users\quang\.ivy2\cache\com.zaxxer\SparseBitSet\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="SparseBitSet" type="jar" ext="jar" status="no" details="" size="24510" time="0" location="C:\Users\quang\.ivy2\cache\com.zaxxer\SparseBitSet\jars\SparseBitSet-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-collections4">
+			<revision name="4.4" status="release" pubdate="20240130213236" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="120">
+				<metadata-artifact status="no" details="" size="450" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-collections4\ivy-4.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.4" rev-constraint-default="4.4" rev-constraint-dynamic="4.4" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-collections4" type="jar" ext="jar" status="no" details="" size="751914" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-collections4\jars\commons-collections4-4.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.xmlbeans" name="xmlbeans">
+			<revision name="3.1.0" status="release" pubdate="20240130213236" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="119">
+				<metadata-artifact status="no" details="" size="429" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.xmlbeans\xmlbeans\ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="xmlbeans" type="jar" ext="jar" status="no" details="" size="2579738" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.xmlbeans\xmlbeans\jars\xmlbeans-3.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-excelant">
+			<revision name="4.1.2" status="release" pubdate="20240130213235" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="118">
+				<metadata-artifact status="no" details="" size="432" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.poi\poi-excelant\ivy-4.1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="poi-excelant" type="jar" ext="jar" status="no" details="" size="31321" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.poi\poi-excelant\jars\poi-excelant-4.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-excelant/4.1.2/poi-excelant-4.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-scratchpad">
+			<revision name="4.1.2" status="release" pubdate="20240130213235" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="117">
+				<metadata-artifact status="no" details="" size="436" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.poi\poi-scratchpad\ivy-4.1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="poi-scratchpad" type="jar" ext="jar" status="no" details="" size="1834265" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.poi\poi-scratchpad\jars\poi-scratchpad-4.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-scratchpad/4.1.2/poi-scratchpad-4.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi">
+			<revision name="4.1.2" status="release" pubdate="20240130213234" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="116">
+				<metadata-artifact status="no" details="" size="414" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.poi\poi\ivy-4.1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="poi" type="jar" ext="jar" status="no" details="" size="2915337" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.poi\poi\jars\poi-4.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi/4.1.2/poi-4.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-ooxml-schemas">
+			<revision name="4.1.2" status="release" pubdate="20240130213234" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="115">
+				<metadata-artifact status="no" details="" size="442" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.poi\poi-ooxml-schemas\ivy-4.1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="poi-ooxml-schemas" type="jar" ext="jar" status="no" details="" size="7912488" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.poi\poi-ooxml-schemas\jars\poi-ooxml-schemas-4.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-ooxml">
+			<revision name="4.1.2" status="release" pubdate="20240130213233" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="114">
+				<metadata-artifact status="no" details="" size="426" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.poi\poi-ooxml\ivy-4.1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="poi-ooxml" type="jar" ext="jar" status="no" details="" size="1888231" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.poi\poi-ooxml\jars\poi-ooxml-4.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="fontbox">
+			<revision name="2.0.24" status="release" pubdate="20240130213233" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="113">
+				<metadata-artifact status="no" details="" size="426" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.pdfbox\fontbox\ivy-2.0.24.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.0.24" rev-constraint-default="2.0.24" rev-constraint-dynamic="2.0.24" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="fontbox" type="jar" ext="jar" status="no" details="" size="1564111" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.pdfbox\fontbox\jars\fontbox-2.0.24.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="jempbox">
+			<revision name="1.8.16" status="release" pubdate="20240130213232" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="112">
+				<metadata-artifact status="no" details="" size="426" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.pdfbox\jempbox\ivy-1.8.16.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.8.16" rev-constraint-default="1.8.16" rev-constraint-dynamic="1.8.16" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jempbox" type="jar" ext="jar" status="no" details="" size="51743" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.pdfbox\jempbox\jars\jempbox-1.8.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/jempbox/1.8.16/jempbox-1.8.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="pdfbox">
+			<revision name="2.0.24" status="release" pubdate="20240130213232" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="111">
+				<metadata-artifact status="no" details="" size="424" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.pdfbox\pdfbox\ivy-2.0.24.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.0.24" rev-constraint-default="2.0.24" rev-constraint-dynamic="2.0.24" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="pdfbox" type="jar" ext="jar" status="no" details="" size="2745079" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.pdfbox\pdfbox\jars\pdfbox-2.0.24.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.james" name="apache-mime4j-core">
+			<revision name="0.8.7" status="release" pubdate="20240130213231" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="110">
+				<metadata-artifact status="no" details="" size="446" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.james\apache-mime4j-core\ivy-0.8.7.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="0.8.7" rev-constraint-default="0.8.7" rev-constraint-dynamic="0.8.7" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="apache-mime4j-core" type="jar" ext="jar" status="no" details="" size="109305" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.james\apache-mime4j-core\jars\apache-mime4j-core-0.8.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.8.7/apache-mime4j-core-0.8.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tika" name="tika-parsers">
+			<revision name="1.24.1" status="release" pubdate="20240130213230" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="109">
+				<metadata-artifact status="no" details="" size="434" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.tika\tika-parsers\ivy-1.24.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.24.1" rev-constraint-default="1.24.1" rev-constraint-dynamic="1.24.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="tika-parsers" type="jar" ext="jar" status="no" details="" size="1336431" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.tika\tika-parsers\jars\tika-parsers-1.24.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tika/tika-parsers/1.24.1/tika-parsers-1.24.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tika" name="tika-core">
+			<revision name="1.24.1" status="release" pubdate="20240130213230" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="108">
+				<metadata-artifact status="no" details="" size="428" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.tika\tika-core\ivy-1.24.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.24.1" rev-constraint-default="1.24.1" rev-constraint-dynamic="1.24.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="tika-core" type="jar" ext="jar" status="no" details="" size="708157" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.tika\tika-core\jars\tika-core-1.24.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.w3c.css" name="sac">
+			<revision name="1.3" status="release" pubdate="20240130213229" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="107">
+				<metadata-artifact status="no" details="" size="409" time="0" location="C:\Users\quang\.ivy2\cache\org.w3c.css\sac\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="sac" type="jar" ext="jar" status="no" details="" size="15808" time="0" location="C:\Users\quang\.ivy2\cache\org.w3c.css\sac\jars\sac-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/w3c/css/sac/1.3/sac-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.xmlgraphics" name="batik-css">
+			<revision name="1.7" status="release" pubdate="20240130213228" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="106">
+				<metadata-artifact status="no" details="" size="432" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.xmlgraphics\batik-css\ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="batik-css" type="jar" ext="jar" status="no" details="" size="310919" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.xmlgraphics\batik-css\jars\batik-css-1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-css/1.7/batik-css-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.owasp.antisamy" name="antisamy">
+			<revision name="1.5.8" status="release" pubdate="20240130213228" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="105">
+				<metadata-artifact status="no" details="" size="428" time="0" location="C:\Users\quang\.ivy2\cache\org.owasp.antisamy\antisamy\ivy-1.5.8.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.5.8" rev-constraint-default="1.5.8" rev-constraint-dynamic="1.5.8" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="antisamy" type="jar" ext="jar" status="no" details="" size="144330" time="0" location="C:\Users\quang\.ivy2\cache\org.owasp.antisamy\antisamy\jars\antisamy-1.5.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/owasp/antisamy/antisamy/1.5.8/antisamy-1.5.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.zafarkhaja" name="java-semver">
+			<revision name="0.9.0" status="release" pubdate="20240130213227" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="104">
+				<metadata-artifact status="no" details="" size="437" time="0" location="C:\Users\quang\.ivy2\cache\com.github.zafarkhaja\java-semver\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="java-semver" type="jar" ext="jar" status="no" details="" size="46843" time="0" location="C:\Users\quang\.ivy2\cache\com.github.zafarkhaja\java-semver\jars\java-semver-0.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/zafarkhaja/java-semver/0.9.0/java-semver-0.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.javascript" name="closure-compiler">
+			<revision name="v20180204" status="release" pubdate="20240130213227" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="103">
+				<metadata-artifact status="no" details="" size="451" time="0" location="C:\Users\quang\.ivy2\cache\com.google.javascript\closure-compiler\ivy-v20180204.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="v20180204" rev-constraint-default="v20180204" rev-constraint-dynamic="v20180204" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="closure-compiler" type="jar" ext="jar" status="no" details="" size="7646601" time="0" location="C:\Users\quang\.ivy2\cache\com.google.javascript\closure-compiler\jars\closure-compiler-v20180204.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20180204/closure-compiler-v20180204.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-rng-simple">
+			<revision name="1.0" status="release" pubdate="20240130213226" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="102">
+				<metadata-artifact status="no" details="" size="446" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-rng-simple\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-rng-simple" type="jar" ext="jar" status="no" details="" size="29293" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-rng-simple\jars\commons-rng-simple-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-rng-simple/1.0/commons-rng-simple-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-rng-core">
+			<revision name="1.0" status="release" pubdate="20240130213226" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="101">
+				<metadata-artifact status="no" details="" size="442" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-rng-core\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-rng-core" type="jar" ext="jar" status="no" details="" size="40928" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-rng-core\jars\commons-rng-core-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-rng-core/1.0/commons-rng-core-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-rng-client-api">
+			<revision name="1.0" status="release" pubdate="20240130213225" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="100">
+				<metadata-artifact status="no" details="" size="454" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-rng-client-api\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-rng-client-api" type="jar" ext="jar" status="no" details="" size="9466" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-rng-client-api\jars\commons-rng-client-api-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-rng-client-api/1.0/commons-rng-client-api-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.7" status="release" pubdate="20240130213225" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="99">
+				<metadata-artifact status="no" details="" size="436" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.7.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="3.7" rev-constraint-default="3.7" rev-constraint-dynamic="3.7" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="499634" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-text">
+			<revision name="1.1" status="release" pubdate="20240130213224" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="98">
+				<metadata-artifact status="no" details="" size="434" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-text\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-text" type="jar" ext="jar" status="no" details="" size="129145" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-text\jars\commons-text-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.1/commons-text-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-jaxb-annotations">
+			<revision name="2.8.9" status="release" pubdate="20240130212617" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="97">
+				<metadata-artifact status="no" details="" size="484" time="0" location="C:\Users\quang\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-jaxb-annotations\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jackson-module-jaxb-annotations" type="jar" ext="jar" status="no" details="" size="34611" time="0" location="C:\Users\quang\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-jaxb-annotations\jars\jackson-module-jaxb-annotations-2.8.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.9/jackson-module-jaxb-annotations-2.8.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-smile">
+			<revision name="2.9.2" status="release" pubdate="20240130213224" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="96">
+				<metadata-artifact status="no" details="" size="474" time="0" location="C:\Users\quang\.ivy2\cache\com.fasterxml.jackson.dataformat\jackson-dataformat-smile\ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-smile" type="jar" ext="jar" status="no" details="" size="84026" time="0" location="C:\Users\quang\.ivy2\cache\com.fasterxml.jackson.dataformat\jackson-dataformat-smile\jars\jackson-dataformat-smile-2.9.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.9.2/jackson-dataformat-smile-2.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.10.1" status="release" pubdate="20240130212617" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="95">
+				<metadata-artifact status="no" details="" size="453" time="0" location="C:\Users\quang\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="jar" ext="jar" status="no" details="" size="1403051" time="0" location="C:\Users\quang\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\jars\jackson-databind-2.10.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.10.1" status="release" pubdate="20240130212618" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="94">
+				<metadata-artifact status="no" details="" size="459" time="0" location="C:\Users\quang\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="no" details="" size="68081" time="0" location="C:\Users\quang\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\jars\jackson-annotations-2.10.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.10.1" status="release" pubdate="20240130212616" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="93">
+				<metadata-artifact status="no" details="" size="445" time="0" location="C:\Users\quang\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="348625" time="0" location="C:\Users\quang\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\jars\jackson-core-2.10.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.jsonwebtoken" name="jjwt">
+			<revision name="0.7.0" status="release" pubdate="20240130213223" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="92">
+				<metadata-artifact status="no" details="" size="417" time="0" location="C:\Users\quang\.ivy2\cache\io.jsonwebtoken\jjwt\ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jjwt" type="jar" ext="jar" status="no" details="" size="111351" time="0" location="C:\Users\quang\.ivy2\cache\io.jsonwebtoken\jjwt\jars\jjwt-0.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ant-contrib" name="ant-contrib">
+			<revision name="1.0b3" status="release" pubdate="20240130212344" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="91">
+				<metadata-artifact status="no" details="" size="427" time="0" location="C:\Users\quang\.ivy2\cache\ant-contrib\ant-contrib\ivy-1.0b3.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.0b3" rev-constraint-default="1.0b3" rev-constraint-dynamic="1.0b3" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="ant-contrib" type="jar" ext="jar" status="no" details="" size="224277" time="0" location="C:\Users\quang\.ivy2\cache\ant-contrib\ant-contrib\jars\ant-contrib-1.0b3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xmlunit" name="xmlunit-core">
+			<revision name="2.3.0" status="release" pubdate="20240130213223" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="90">
+				<metadata-artifact status="no" details="" size="429" time="0" location="C:\Users\quang\.ivy2\cache\org.xmlunit\xmlunit-core\ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="xmlunit-core" type="jar" ext="jar" status="no" details="" size="155580" time="0" location="C:\Users\quang\.ivy2\cache\org.xmlunit\xmlunit-core\jars\xmlunit-core-2.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xmlunit/xmlunit-core/2.3.0/xmlunit-core-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="zimbra" name="zm-native">
+			<revision name="8.7.6.1706237411" status="release" pubdate="20240130213940" resolver="local" artresolver="local" downloaded="false" searched="true" default="true" conf="default, *" position="89">
+				<metadata-artifact status="no" details="" size="0" time="0" location="C:\Users\quang\.ivy2\cache\zimbra\zm-native\ivy-8.7.6.1706237411.xml" searched="true"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="latest.integration" rev-constraint-default="latest.integration" rev-constraint-dynamic="latest.integration" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="zm-native" type="jar" ext="jar" status="no" details="" size="17812" time="0" location="C:\Users\quang\.ivy2\cache\zimbra\zm-native\jars\zm-native-8.7.6.1706237411.jar">
+						<origin-location is-local="true" location="C:\Users\quang\.zcs-deps\zimbra\zm-native\zm-native-8.7.6.1706237411.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="zimbra" name="zm-client">
+			<revision name="8.7.6.1706237411" status="release" pubdate="20240130213940" resolver="local" artresolver="local" downloaded="false" searched="true" default="true" conf="default, *" position="88">
+				<metadata-artifact status="no" details="" size="0" time="0" location="C:\Users\quang\.ivy2\cache\zimbra\zm-client\ivy-8.7.6.1706237411.xml" searched="true"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="latest.integration" rev-constraint-default="latest.integration" rev-constraint-dynamic="latest.integration" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="zm-client" type="jar" ext="jar" status="no" details="" size="496089" time="0" location="C:\Users\quang\.ivy2\cache\zimbra\zm-client\jars\zm-client-8.7.6.1706237411.jar">
+						<origin-location is-local="true" location="C:\Users\quang\.zcs-deps\zimbra\zm-client\zm-client-8.7.6.1706237411.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="zimbra" name="zm-soap">
+			<revision name="8.7.6.1706237411" status="release" pubdate="20240130213940" resolver="local" artresolver="local" downloaded="false" searched="true" default="true" conf="default, *" position="87">
+				<metadata-artifact status="no" details="" size="0" time="0" location="C:\Users\quang\.ivy2\cache\zimbra\zm-soap\ivy-8.7.6.1706237411.xml" searched="true"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="latest.integration" rev-constraint-default="latest.integration" rev-constraint-dynamic="latest.integration" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="zm-soap" type="jar" ext="jar" status="no" details="" size="2359787" time="0" location="C:\Users\quang\.ivy2\cache\zimbra\zm-soap\jars\zm-soap-8.7.6.1706237411.jar">
+						<origin-location is-local="true" location="C:\Users\quang\.zcs-deps\zimbra\zm-soap\zm-soap-8.7.6.1706237411.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="zimbra" name="zm-common">
+			<revision name="8.7.6.1706237411" status="release" pubdate="20240130213940" resolver="local" artresolver="local" downloaded="false" searched="true" default="true" conf="default, *" position="86">
+				<metadata-artifact status="no" details="" size="0" time="0" location="C:\Users\quang\.ivy2\cache\zimbra\zm-common\ivy-8.7.6.1706237411.xml" searched="true"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="latest.integration" rev-constraint-default="latest.integration" rev-constraint-dynamic="latest.integration" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="zm-common" type="jar" ext="jar" status="no" details="" size="1493848" time="0" location="C:\Users\quang\.ivy2\cache\zimbra\zm-common\jars\zm-common-8.7.6.1706237411.jar">
+						<origin-location is-local="true" location="C:\Users\quang\.zcs-deps\zimbra\zm-common\zm-common-8.7.6.1706237411.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="asm" name="asm">
+			<revision name="3.3.1" status="release" pubdate="20240130212343" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="85">
+				<metadata-artifact status="no" details="" size="403" time="0" location="C:\Users\quang\.ivy2\cache\asm\asm\ivy-3.3.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="43581" time="0" location="C:\Users\quang\.ivy2\cache\asm\asm\jars\asm-3.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="1.2" status="release" pubdate="20240130213222" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="84">
+				<metadata-artifact status="no" details="" size="423" time="0" location="C:\Users\quang\.ivy2\cache\org.objenesis\objenesis\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="objenesis" type="jar" ext="jar" status="no" details="" size="36046" time="0" location="C:\Users\quang\.ivy2\cache\org.objenesis\objenesis\jars\objenesis-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="cglib" name="cglib-nodep">
+			<revision name="2.2" status="release" pubdate="20240130213222" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="83">
+				<metadata-artifact status="no" details="" size="419" time="0" location="C:\Users\quang\.ivy2\cache\cglib\cglib-nodep\ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="cglib-nodep" type="jar" ext="jar" status="no" details="" size="322362" time="0" location="C:\Users\quang\.ivy2\cache\cglib\cglib-nodep\jars\cglib-nodep-2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="cglib" name="cglib">
+			<revision name="2.2.2" status="release" pubdate="20240130212342" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="82">
+				<metadata-artifact status="no" details="" size="409" time="0" location="C:\Users\quang\.ivy2\cache\cglib\cglib\ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="cglib" type="jar" ext="jar" status="no" details="" size="287192" time="0" location="C:\Users\quang\.ivy2\cache\cglib\cglib\jars\cglib-2.2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/cglib/cglib/2.2.2/cglib-2.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.easymock" name="easymock">
+			<revision name="3.0" status="release" pubdate="20240130212342" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="81">
+				<metadata-artifact status="no" details="" size="420" time="0" location="C:\Users\quang\.ivy2\cache\org.easymock\easymock\ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="easymock" type="jar" ext="jar" status="no" details="" size="114128" time="0" location="C:\Users\quang\.ivy2\cache\org.easymock\easymock\jars\easymock-3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/easymock/easymock/3.0/easymock-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hsqldb" name="sqltool">
+			<revision name="2.2.9" status="release" pubdate="20240130213222" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="80">
+				<metadata-artifact status="no" details="" size="418" time="0" location="C:\Users\quang\.ivy2\cache\org.hsqldb\sqltool\ivy-2.2.9.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.2.9" rev-constraint-default="2.2.9" rev-constraint-dynamic="2.2.9" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="sqltool" type="jar" ext="jar" status="no" details="" size="147464" time="0" location="C:\Users\quang\.ivy2\cache\org.hsqldb\sqltool\jars\sqltool-2.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hsqldb/sqltool/2.2.9/sqltool-2.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hsqldb" name="hsqldb">
+			<revision name="2.2.9" status="release" pubdate="20240130213221" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="79">
+				<metadata-artifact status="no" details="" size="416" time="0" location="C:\Users\quang\.ivy2\cache\org.hsqldb\hsqldb\ivy-2.2.9.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.2.9" rev-constraint-default="2.2.9" rev-constraint-dynamic="2.2.9" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="hsqldb" type="jar" ext="jar" status="no" details="" size="1423646" time="0" location="C:\Users\quang\.ivy2\cache\org.hsqldb\hsqldb\jars\hsqldb-2.2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.2.9/hsqldb-2.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.yahoo.platform.yui" name="yuicompressor">
+			<revision name="2.4.2-zimbra" status="release" pubdate="20240130213220" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="78">
+				<metadata-artifact status="no" details="" size="449" time="0" location="C:\Users\quang\.ivy2\cache\com.yahoo.platform.yui\yuicompressor\ivy-2.4.2-zimbra.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.4.2-zimbra" rev-constraint-default="2.4.2-zimbra" rev-constraint-dynamic="2.4.2-zimbra" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="yuicompressor" type="jar" ext="jar" status="no" details="" size="851820" time="0" location="C:\Users\quang\.ivy2\cache\com.yahoo.platform.yui\yuicompressor\jars\yuicompressor-2.4.2-zimbra.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/yuicompressor/yuicompressor-2.4.2-zimbra.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ant-tar-patched" name="ant-tar-patched">
+			<revision name="1.0" status="release" pubdate="20240130213216" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="77">
+				<metadata-artifact status="no" details="" size="437" time="0" location="C:\Users\quang\.ivy2\cache\ant-tar-patched\ant-tar-patched\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="ant-tar-patched" type="jar" ext="jar" status="no" details="" size="16168" time="0" location="C:\Users\quang\.ivy2\cache\ant-tar-patched\ant-tar-patched\jars\ant-tar-patched-1.0.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/ant-tar-patched/ant-tar-patched-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.sshd" name="sshd-core">
+			<revision name="2.6.1" status="release" pubdate="20240130213212" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="76">
+				<metadata-artifact status="no" details="" size="427" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.sshd\sshd-core\ivy-2.6.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.6.1" rev-constraint-default="2.6.1" rev-constraint-dynamic="2.6.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="sshd-core" type="jar" ext="jar" status="no" details="" size="883327" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.sshd\sshd-core\jars\sshd-core-2.6.1.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/sshd-core/sshd-core-2.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.sshd" name="sshd-common">
+			<revision name="2.6.1" status="release" pubdate="20240130213209" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="75">
+				<metadata-artifact status="no" details="" size="431" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.sshd\sshd-common\ivy-2.6.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.6.1" rev-constraint-default="2.6.1" rev-constraint-dynamic="2.6.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="sshd-common" type="jar" ext="jar" status="no" details="" size="904559" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.sshd\sshd-common\jars\sshd-common-2.6.1.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/sshd-common/sshd-common-2.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-csv">
+			<revision name="1.2" status="release" pubdate="20240130213206" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="74">
+				<metadata-artifact status="no" details="" size="432" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-csv\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-csv" type="jar" ext="jar" status="no" details="" size="38795" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-csv\jars\commons-csv-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-csv/1.2/commons-csv-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.concurrentlinkedhashmap" name="concurrentlinkedhashmap-lru">
+			<revision name="1.3.1" status="release" pubdate="20240130213205" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="73">
+				<metadata-artifact status="no" details="" size="486" time="0" location="C:\Users\quang\.ivy2\cache\com.googlecode.concurrentlinkedhashmap\concurrentlinkedhashmap-lru\ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="concurrentlinkedhashmap-lru" type="jar" ext="jar" status="no" details="" size="54436" time="0" location="C:\Users\quang\.ivy2\cache\com.googlecode.concurrentlinkedhashmap\concurrentlinkedhashmap-lru\jars\concurrentlinkedhashmap-lru-1.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.3.1/concurrentlinkedhashmap-lru-1.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcpkix-jdk15on">
+			<revision name="1.64" status="release" pubdate="20240130213205" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="72">
+				<metadata-artifact status="no" details="" size="437" time="0" location="C:\Users\quang\.ivy2\cache\org.bouncycastle\bcpkix-jdk15on\ivy-1.64.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.64" rev-constraint-default="1.64" rev-constraint-dynamic="1.64" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="bcpkix-jdk15on" type="jar" ext="jar" status="no" details="" size="878038" time="0" location="C:\Users\quang\.ivy2\cache\org.bouncycastle\bcpkix-jdk15on\jars\bcpkix-jdk15on-1.64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcprov-jdk15on">
+			<revision name="1.64" status="release" pubdate="20240130213204" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="71">
+				<metadata-artifact status="no" details="" size="437" time="0" location="C:\Users\quang\.ivy2\cache\org.bouncycastle\bcprov-jdk15on\ivy-1.64.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.64" rev-constraint-default="1.64" rev-constraint-dynamic="1.64" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="bcprov-jdk15on" type="jar" ext="jar" status="no" details="" size="4771726" time="0" location="C:\Users\quang\.ivy2\cache\org.bouncycastle\bcprov-jdk15on\jars\bcprov-jdk15on-1.64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.freeutils.jtnef" name="tnef">
+			<revision name="1.8.0" status="release" pubdate="20240130213203" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="70">
+				<metadata-artifact status="no" details="" size="421" time="0" location="C:\Users\quang\.ivy2\cache\net.freeutils.jtnef\tnef\ivy-1.8.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="tnef" type="jar" ext="jar" status="no" details="" size="66529" time="0" location="C:\Users\quang\.ivy2\cache\net.freeutils.jtnef\tnef\jars\tnef-1.8.0.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/tnef/tnef-1.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.newsclub" name="junixsocket">
+			<revision name="1.3" status="release" pubdate="20240130213156" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="69">
+				<metadata-artifact status="no" details="" size="426" time="0" location="C:\Users\quang\.ivy2\cache\org.newsclub\junixsocket\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="junixsocket" type="jar" ext="jar" status="no" details="" size="16162" time="0" location="C:\Users\quang\.ivy2\cache\org.newsclub\junixsocket\jars\junixsocket-1.3.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/org.newsclub/junixsocket/junixsocket-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.unboundid" name="unboundid-ldapsdk">
+			<revision name="2.3.5" status="release" pubdate="20240130213153" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="68">
+				<metadata-artifact status="no" details="" size="441" time="0" location="C:\Users\quang\.ivy2\cache\com.unboundid\unboundid-ldapsdk\ivy-2.3.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.3.5" rev-constraint-default="2.3.5" rev-constraint-dynamic="2.3.5" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="unboundid-ldapsdk" type="jar" ext="jar" status="no" details="" size="1535550" time="0" location="C:\Users\quang\.ivy2\cache\com.unboundid\unboundid-ldapsdk\jars\unboundid-ldapsdk-2.3.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/unboundid/unboundid-ldapsdk/2.3.5/unboundid-ldapsdk-2.3.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.james" name="apache-jsieve-core">
+			<revision name="0.5" status="release" pubdate="20240130212619" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="67">
+				<metadata-artifact status="no" details="" size="444" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.james\apache-jsieve-core\ivy-0.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="0.5" rev-constraint-default="0.5" rev-constraint-dynamic="0.5" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="apache-jsieve-core" type="jar" ext="jar" status="no" details="" size="178773" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.james\apache-jsieve-core\jars\apache-jsieve-core-0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/james/apache-jsieve-core/0.5/apache-jsieve-core-0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.curator" name="curator-framework">
+			<revision name="2.0.1-incubating" status="release" pubdate="20240130213153" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="66">
+				<metadata-artifact status="no" details="" size="457" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.curator\curator-framework\ivy-2.0.1-incubating.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.0.1-incubating" rev-constraint-default="2.0.1-incubating" rev-constraint-dynamic="2.0.1-incubating" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="curator-framework" type="jar" ext="jar" status="no" details="" size="163879" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.curator\curator-framework\jars\curator-framework-2.0.1-incubating.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.0.1-incubating/curator-framework-2.0.1-incubating.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.curator" name="curator-x-discovery">
+			<revision name="2.0.1-incubating" status="release" pubdate="20240130213152" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="65">
+				<metadata-artifact status="no" details="" size="461" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.curator\curator-x-discovery\ivy-2.0.1-incubating.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.0.1-incubating" rev-constraint-default="2.0.1-incubating" rev-constraint-dynamic="2.0.1-incubating" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="curator-x-discovery" type="jar" ext="jar" status="no" details="" size="46987" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.curator\curator-x-discovery\jars\curator-x-discovery-2.0.1-incubating.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-x-discovery/2.0.1-incubating/curator-x-discovery-2.0.1-incubating.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.curator" name="curator-client">
+			<revision name="2.0.1-incubating" status="release" pubdate="20240130213152" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="64">
+				<metadata-artifact status="no" details="" size="451" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.curator\curator-client\ivy-2.0.1-incubating.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.0.1-incubating" rev-constraint-default="2.0.1-incubating" rev-constraint-dynamic="2.0.1-incubating" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="curator-client" type="jar" ext="jar" status="no" details="" size="61505" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.curator\curator-client\jars\curator-client-2.0.1-incubating.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.0.1-incubating/curator-client-2.0.1-incubating.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.curator" name="curator-recipes">
+			<revision name="2.0.1-incubating" status="release" pubdate="20240130213151" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="63">
+				<metadata-artifact status="no" details="" size="453" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.curator\curator-recipes\ivy-2.0.1-incubating.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.0.1-incubating" rev-constraint-default="2.0.1-incubating" rev-constraint-dynamic="2.0.1-incubating" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="curator-recipes" type="jar" ext="jar" status="no" details="" size="220348" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.curator\curator-recipes\jars\curator-recipes-2.0.1-incubating.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.0.1-incubating/curator-recipes-2.0.1-incubating.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.mina" name="mina-core">
+			<revision name="2.1.6" status="release" pubdate="20240130213151" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="62">
+				<metadata-artifact status="no" details="" size="427" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.mina\mina-core\ivy-2.1.6.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.1.6" rev-constraint-default="2.1.6" rev-constraint-dynamic="2.1.6" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="mina-core" type="jar" ext="jar" status="no" details="" size="671028" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.mina\mina-core\jars\mina-core-2.1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/mina/mina-core/2.1.6/mina-core-2.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.20" status="release" pubdate="20240130213150" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="61">
+				<metadata-artifact status="no" details="" size="443" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-compress\ivy-1.20.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.20" rev-constraint-default="1.20" rev-constraint-dynamic="1.20" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="632424" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.commons\commons-compress\jars\commons-compress-1.20.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpmime">
+			<revision name="4.5.8" status="release" pubdate="20240130213028" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="60">
+				<metadata-artifact status="no" details="" size="435" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.httpcomponents\httpmime\ivy-4.5.8.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.5.8" rev-constraint-default="4.5.8" rev-constraint-dynamic="4.5.8" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="httpmime" type="jar" ext="jar" status="no" details="" size="41787" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.httpcomponents\httpmime\jars\httpmime-4.5.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.8/httpmime-4.5.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore-nio">
+			<revision name="4.4.11" status="release" pubdate="20240130212327" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="59">
+				<metadata-artifact status="no" details="" size="444" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.httpcomponents\httpcore-nio\ivy-4.4.11.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.4.11" rev-constraint-default="4.4.11" rev-constraint-dynamic="4.4.11" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="httpcore-nio" type="jar" ext="jar" status="no" details="" size="365892" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.httpcomponents\httpcore-nio\jars\httpcore-nio-4.4.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.11/httpcore-nio-4.4.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.11" status="release" pubdate="20240130212326" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="58">
+				<metadata-artifact status="no" details="" size="436" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.4.11.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.4.11" rev-constraint-default="4.4.11" rev-constraint-dynamic="4.4.11" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="326874" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.4.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpasyncclient">
+			<revision name="4.1.4" status="release" pubdate="20240130212326" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="57">
+				<metadata-artifact status="no" details="" size="449" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.httpcomponents\httpasyncclient\ivy-4.1.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.1.4" rev-constraint-default="4.1.4" rev-constraint-dynamic="4.1.4" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="httpasyncclient" type="jar" ext="jar" status="no" details="" size="179964" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.httpcomponents\httpasyncclient\jars\httpasyncclient-4.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.5.8" status="release" pubdate="20240130212325" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="56">
+				<metadata-artifact status="no" details="" size="439" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.5.8.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.5.8" rev-constraint-default="4.5.8" rev-constraint-dynamic="4.5.8" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="772386" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.5.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.8/httpclient-4.5.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20240130212325" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="55">
+				<metadata-artifact status="no" details="" size="439" time="0" location="C:\Users\quang\.ivy2\cache\commons-logging\commons-logging\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="60686" time="0" location="C:\Users\quang\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.2" status="release" pubdate="20240130213150" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="54">
+				<metadata-artifact status="no" details="" size="451" time="0" location="C:\Users\quang\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="588337" time="0" location="C:\Users\quang\.ivy2\cache\commons-collections\commons-collections\jars\commons-collections-3.2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-fileupload" name="commons-fileupload">
+			<revision name="1.4" status="release" pubdate="20240130213150" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="53">
+				<metadata-artifact status="no" details="" size="446" time="0" location="C:\Users\quang\.ivy2\cache\commons-fileupload\commons-fileupload\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-fileupload" type="jar" ext="jar" status="no" details="" size="72446" time="0" location="C:\Users\quang\.ivy2\cache\commons-fileupload\commons-fileupload\jars\commons-fileupload-1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20240130212325" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="52">
+				<metadata-artifact status="no" details="" size="428" time="0" location="C:\Users\quang\.ivy2\cache\commons-lang\commons-lang\ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="C:\Users\quang\.ivy2\cache\commons-lang\commons-lang\jars\commons-lang-2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-util">
+			<revision name="9.4.46.v20220331" status="release" pubdate="20240130212344" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="51">
+				<metadata-artifact status="no" details="" size="442" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-util\ivy-9.4.46.v20220331.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="9.4.46.v20220331" rev-constraint-default="9.4.46.v20220331" rev-constraint-dynamic="9.4.46.v20220331" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="585886" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-util\jars\jetty-util-9.4.46.v20220331.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.46.v20220331/jetty-util-9.4.46.v20220331.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-servlets">
+			<revision name="9.4.46.v20220331" status="release" pubdate="20240130213150" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="50">
+				<metadata-artifact status="no" details="" size="450" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-servlets\ivy-9.4.46.v20220331.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="9.4.46.v20220331" rev-constraint-default="9.4.46.v20220331" rev-constraint-dynamic="9.4.46.v20220331" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jetty-servlets" type="jar" ext="jar" status="no" details="" size="107784" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-servlets\jars\jetty-servlets-9.4.46.v20220331.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.46.v20220331/jetty-servlets-9.4.46.v20220331.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-servlet">
+			<revision name="9.4.46.v20220331" status="release" pubdate="20240130213149" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="49">
+				<metadata-artifact status="no" details="" size="448" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-servlet\ivy-9.4.46.v20220331.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="9.4.46.v20220331" rev-constraint-default="9.4.46.v20220331" rev-constraint-dynamic="9.4.46.v20220331" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jetty-servlet" type="jar" ext="jar" status="no" details="" size="146785" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-servlet\jars\jetty-servlet-9.4.46.v20220331.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.46.v20220331/jetty-servlet-9.4.46.v20220331.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-server">
+			<revision name="9.4.46.v20220331" status="release" pubdate="20240130213149" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="48">
+				<metadata-artifact status="no" details="" size="446" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-server\ivy-9.4.46.v20220331.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="9.4.46.v20220331" rev-constraint-default="9.4.46.v20220331" rev-constraint-dynamic="9.4.46.v20220331" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jetty-server" type="jar" ext="jar" status="no" details="" size="733174" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-server\jars\jetty-server-9.4.46.v20220331.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.46.v20220331/jetty-server-9.4.46.v20220331.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-io">
+			<revision name="9.4.46.v20220331" status="release" pubdate="20240130213148" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="47">
+				<metadata-artifact status="no" details="" size="438" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-io\ivy-9.4.46.v20220331.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="9.4.46.v20220331" rev-constraint-default="9.4.46.v20220331" rev-constraint-dynamic="9.4.46.v20220331" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jetty-io" type="jar" ext="jar" status="no" details="" size="183541" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-io\jars\jetty-io-9.4.46.v20220331.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.46.v20220331/jetty-io-9.4.46.v20220331.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-http">
+			<revision name="9.4.46.v20220331" status="release" pubdate="20240130213148" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="46">
+				<metadata-artifact status="no" details="" size="442" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-http\ivy-9.4.46.v20220331.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="9.4.46.v20220331" rev-constraint-default="9.4.46.v20220331" rev-constraint-dynamic="9.4.46.v20220331" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jetty-http" type="jar" ext="jar" status="no" details="" size="224851" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-http\jars\jetty-http-9.4.46.v20220331.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.46.v20220331/jetty-http-9.4.46.v20220331.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-security">
+			<revision name="9.4.46.v20220331" status="release" pubdate="20240130213147" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="45">
+				<metadata-artifact status="no" details="" size="450" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-security\ivy-9.4.46.v20220331.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="9.4.46.v20220331" rev-constraint-default="9.4.46.v20220331" rev-constraint-dynamic="9.4.46.v20220331" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jetty-security" type="jar" ext="jar" status="no" details="" size="119111" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-security\jars\jetty-security-9.4.46.v20220331.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.46.v20220331/jetty-security-9.4.46.v20220331.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-continuation">
+			<revision name="9.4.46.v20220331" status="release" pubdate="20240130213147" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="44">
+				<metadata-artifact status="no" details="" size="458" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-continuation\ivy-9.4.46.v20220331.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="9.4.46.v20220331" rev-constraint-default="9.4.46.v20220331" rev-constraint-dynamic="9.4.46.v20220331" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jetty-continuation" type="jar" ext="jar" status="no" details="" size="25381" time="0" location="C:\Users\quang\.ivy2\cache\org.eclipse.jetty\jetty-continuation\jars\jetty-continuation-9.4.46.v20220331.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.46.v20220331/jetty-continuation-9.4.46.v20220331.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ant-1.7.0-ziputil-patched" name="ant-1.7.0-ziputil-patched">
+			<revision name="1.0" status="release" pubdate="20240130213145" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="43">
+				<metadata-artifact status="no" details="" size="467" time="0" location="C:\Users\quang\.ivy2\cache\ant-1.7.0-ziputil-patched\ant-1.7.0-ziputil-patched\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="ant-1.7.0-ziputil-patched" type="jar" ext="jar" status="no" details="" size="35697" time="0" location="C:\Users\quang\.ivy2\cache\ant-1.7.0-ziputil-patched\ant-1.7.0-ziputil-patched\jars\ant-1.7.0-ziputil-patched-1.0.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/ant-1.7.0-ziputil-patched/ant-1.7.0-ziputil-patched-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ehcache" name="ehcache">
+			<revision name="3.1.2" status="release" pubdate="20240130213142" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="42">
+				<metadata-artifact status="no" details="" size="419" time="0" location="C:\Users\quang\.ivy2\cache\org.ehcache\ehcache\ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="ehcache" type="jar" ext="jar" status="no" details="" size="1644295" time="0" location="C:\Users\quang\.ivy2\cache\org.ehcache\ehcache\jars\ehcache-3.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ehcache/ehcache/3.1.2/ehcache-3.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.owasp-java-html-sanitizer" name="owasp-java-html-sanitizer">
+			<revision name="20190610.5z" status="release" pubdate="20240130213141" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="41">
+				<metadata-artifact status="no" details="" size="490" time="0" location="C:\Users\quang\.ivy2\cache\com.googlecode.owasp-java-html-sanitizer\owasp-java-html-sanitizer\ivy-20190610.5z.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="20190610.5z" rev-constraint-default="20190610.5z" rev-constraint-dynamic="20190610.5z" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="owasp-java-html-sanitizer" type="jar" ext="jar" status="no" details="" size="400241" time="0" location="C:\Users\quang\.ivy2\cache\com.googlecode.owasp-java-html-sanitizer\owasp-java-html-sanitizer\jars\owasp-java-html-sanitizer-20190610.5z.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/owasp-java-html-sanitizer/owasp-java-html-sanitizer-20190610.5z.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.nekohtml" name="nekohtml">
+			<revision name="1.9.13.1z" status="release" pubdate="20240130212336" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="40">
+				<metadata-artifact status="no" details="" size="438" time="0" location="C:\Users\quang\.ivy2\cache\net.sourceforge.nekohtml\nekohtml\ivy-1.9.13.1z.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.9.13.1z" rev-constraint-default="1.9.13.1z" rev-constraint-dynamic="1.9.13.1z" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="nekohtml" type="jar" ext="jar" status="no" details="" size="122209" time="0" location="C:\Users\quang\.ivy2\cache\net.sourceforge.nekohtml\nekohtml\jars\nekohtml-1.9.13.1z.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/nekohtml/nekohtml-1.9.13.1z.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.9.1-patch-01" status="release" pubdate="20240130212337" resolver="maven-redhat" artresolver="maven-redhat" downloaded="false" searched="false" default="true" conf="default, *" position="39">
+				<metadata-artifact status="no" details="" size="429" time="0" location="C:\Users\quang\.ivy2\cache\xerces\xercesImpl\ivy-2.9.1-patch-01.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.9.1-patch-01" rev-constraint-default="2.9.1-patch-01" rev-constraint-dynamic="2.9.1-patch-01" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="1291351" time="0" location="C:\Users\quang\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.9.1-patch-01.jar">
+						<origin-location is-local="false" location="https://maven.repository.redhat.com/ga/xerces/xercesImpl/2.9.1-patch-01/xercesImpl-2.9.1-patch-01.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.101tec" name="zkclient">
+			<revision name="0.1.0" status="release" pubdate="20240130213138" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="38">
+				<metadata-artifact status="no" details="" size="420" time="0" location="C:\Users\quang\.ivy2\cache\com.101tec\zkclient\ivy-0.1.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="0.1.0" rev-constraint-default="0.1.0" rev-constraint-dynamic="0.1.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="zkclient" type="jar" ext="jar" status="no" details="" size="198595" time="0" location="C:\Users\quang\.ivy2\cache\com.101tec\zkclient\jars\zkclient-0.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/101tec/zkclient/0.1.0/zkclient-0.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ews_2010" name="ews_2010">
+			<revision name="1.0" status="release" pubdate="20240130213137" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="37">
+				<metadata-artifact status="no" details="" size="416" time="0" location="C:\Users\quang\.ivy2\cache\ews_2010\ews_2010\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="ews_2010" type="jar" ext="jar" status="no" details="" size="666541" time="0" location="C:\Users\quang\.ivy2\cache\ews_2010\ews_2010\jars\ews_2010-1.0.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/ews_2010/ews_2010-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.zookeeper" name="zookeeper">
+			<revision name="3.4.5" status="release" pubdate="20240130213134" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="36">
+				<metadata-artifact status="no" details="" size="432" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.zookeeper\zookeeper\ivy-3.4.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="3.4.5" rev-constraint-default="3.4.5" rev-constraint-dynamic="3.4.5" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="zookeeper" type="jar" ext="jar" status="no" details="" size="779974" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.zookeeper\zookeeper\jars\zookeeper-3.4.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers">
+			<revision name="3.5.0" status="release" pubdate="20240130213134" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="35">
+				<metadata-artifact status="no" details="" size="443" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.lucene\lucene-analyzers\ivy-3.5.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="lucene-analyzers" type="jar" ext="jar" status="no" details="" size="875107" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.lucene\lucene-analyzers\jars\lucene-analyzers-3.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers/3.5.0/lucene-analyzers-3.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="3.5.0" status="release" pubdate="20240130213133" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="34">
+				<metadata-artifact status="no" details="" size="433" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.lucene\lucene-core\ivy-3.5.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="lucene-core" type="jar" ext="jar" status="no" details="" size="1466301" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.lucene\lucene-core\jars\lucene-core-3.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/3.5.0/lucene-core-3.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="zimbra" name="zm-ews-stub">
+			<revision name="4.0" status="release" pubdate="20240130213132" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="33">
+				<metadata-artifact status="no" details="" size="420" time="0" location="C:\Users\quang\.ivy2\cache\zimbra\zm-ews-stub\ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="zm-ews-stub" type="jar" ext="jar" status="no" details="" size="963275" time="0" location="C:\Users\quang\.ivy2\cache\zimbra\zm-ews-stub\jars\zm-ews-stub-4.0.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/zm-ews-stub/zm-ews-stub-4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="oauth" name="oauth">
+			<revision name="1.4" status="release" pubdate="20240130213128" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="32">
+				<metadata-artifact status="no" details="" size="407" time="0" location="C:\Users\quang\.ivy2\cache\oauth\oauth\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="oauth" type="jar" ext="jar" status="no" details="" size="187112" time="0" location="C:\Users\quang\.ivy2\cache\oauth\oauth\jars\oauth-1.4.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/oauth/oauth-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ibm.icu" name="icu4j">
+			<revision name="4.8.1.1" status="release" pubdate="20240130212342" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="31">
+				<metadata-artifact status="no" details="" size="417" time="0" location="C:\Users\quang\.ivy2\cache\com.ibm.icu\icu4j\ivy-4.8.1.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.8.1.1" rev-constraint-default="4.8.1.1" rev-constraint-dynamic="4.8.1.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="icu4j" type="jar" ext="jar" status="no" details="" size="7285651" time="0" location="C:\Users\quang\.ivy2\cache\com.ibm.icu\icu4j\jars\icu4j-4.8.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/icu/icu4j/4.8.1.1/icu4j-4.8.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.11.0" status="release" pubdate="20240130213125" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="30">
+				<metadata-artifact status="no" details="" size="425" time="0" location="C:\Users\quang\.ivy2\cache\commons-io\commons-io\ivy-2.11.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="327135" time="0" location="C:\Users\quang\.ivy2\cache\commons-io\commons-io\jars\commons-io-2.11.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default, *" position="-1">
+				<evicted-by rev="2.11.0"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.7" status="release" pubdate="20240130212323" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="29">
+				<metadata-artifact status="no" details="" size="431" time="0" location="C:\Users\quang\.ivy2\cache\commons-codec\commons-codec\ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="259600" time="0" location="C:\Users\quang\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.7/commons-codec-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-dbcp" name="commons-dbcp">
+			<revision name="1.4" status="release" pubdate="20240130213125" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="28">
+				<metadata-artifact status="no" details="" size="428" time="0" location="C:\Users\quang\.ivy2\cache\commons-dbcp\commons-dbcp\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-dbcp" type="jar" ext="jar" status="no" details="" size="160519" time="0" location="C:\Users\quang\.ivy2\cache\commons-dbcp\commons-dbcp\jars\commons-dbcp-1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-pool" name="commons-pool">
+			<revision name="1.6" status="release" pubdate="20240130213125" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="27">
+				<metadata-artifact status="no" details="" size="428" time="0" location="C:\Users\quang\.ivy2\cache\commons-pool\commons-pool\ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-pool" type="jar" ext="jar" status="no" details="" size="111119" time="0" location="C:\Users\quang\.ivy2\cache\commons-pool\commons-pool\jars\commons-pool-1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-pool/commons-pool/1.6/commons-pool-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20240130212341" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="26">
+				<metadata-artifact status="no" details="" size="425" time="0" location="C:\Users\quang\.ivy2\cache\commons-cli\commons-cli\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="41123" time="0" location="C:\Users\quang\.ivy2\cache\commons-cli\commons-cli\jars\commons-cli-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.gnu.inet" name="libidn">
+			<revision name="1.24" status="release" pubdate="20240130213124" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="25">
+				<metadata-artifact status="no" details="" size="417" time="0" location="C:\Users\quang\.ivy2\cache\org.gnu.inet\libidn\ivy-1.24.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.24" rev-constraint-default="1.24" rev-constraint-dynamic="1.24" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="libidn" type="jar" ext="jar" status="no" details="" size="108883" time="0" location="C:\Users\quang\.ivy2\cache\org.gnu.inet\libidn\jars\libidn-1.24.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/libidn/libidn-1.24.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.spy" name="spymemcached">
+			<revision name="2.12.1" status="release" pubdate="20240130212340" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="24">
+				<metadata-artifact status="no" details="" size="426" time="0" location="C:\Users\quang\.ivy2\cache\net.spy\spymemcached\ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="spymemcached" type="jar" ext="jar" status="no" details="" size="472479" time="0" location="C:\Users\quang\.ivy2\cache\net.spy\spymemcached\jars\spymemcached-2.12.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/spy/spymemcached/2.12.1/spymemcached-2.12.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ical4j" name="ical4j">
+			<revision name="0.9.16-patched" status="release" pubdate="20240130212330" resolver="zimbra" artresolver="zimbra" downloaded="false" searched="false" default="true" conf="default, *" position="23">
+				<metadata-artifact status="no" details="" size="421" time="0" location="C:\Users\quang\.ivy2\cache\ical4j\ical4j\ivy-0.9.16-patched.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="0.9.16-patched" rev-constraint-default="0.9.16-patched" rev-constraint-dynamic="0.9.16-patched" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="ical4j" type="jar" ext="jar" status="no" details="" size="219049" time="0" location="C:\Users\quang\.ivy2\cache\ical4j\ical4j\jars\ical4j-0.9.16-patched.jar">
+						<origin-location is-local="false" location="https://files.zimbra.com/repository/ical4j/ical4j-0.9.16-patched.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="javax.servlet-api">
+			<revision name="3.1.0" status="release" pubdate="20240130212337" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="22">
+				<metadata-artifact status="no" details="" size="441" time="0" location="C:\Users\quang\.ivy2\cache\javax.servlet\javax.servlet-api\ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="javax.servlet-api" type="jar" ext="jar" status="no" details="" size="95806" time="0" location="C:\Users\quang\.ivy2\cache\javax.servlet\javax.servlet-api\jars\javax.servlet-api-3.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json" name="json">
+			<revision name="20090211" status="release" pubdate="20240130212340" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="21">
+				<metadata-artifact status="no" details="" size="413" time="0" location="C:\Users\quang\.ivy2\cache\org.json\json\ivy-20090211.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="20090211" rev-constraint-default="20090211" rev-constraint-dynamic="20090211" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="json" type="jar" ext="jar" status="no" details="" size="45944" time="0" location="C:\Users\quang\.ivy2\cache\org.json\json\jars\json-20090211.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json/json/20090211/json-20090211.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="failureaccess">
+			<revision name="1.0.1" status="release" pubdate="20240130213120" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="20">
+				<metadata-artifact status="no" details="" size="436" time="0" location="C:\Users\quang\.ivy2\cache\com.google.guava\failureaccess\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="failureaccess" type="jar" ext="jar" status="no" details="" size="4617" time="0" location="C:\Users\quang\.ivy2\cache\com.google.guava\failureaccess\jars\failureaccess-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="28.1-jre" status="release" pubdate="20240130212341" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="19">
+				<metadata-artifact status="no" details="" size="423" time="0" location="C:\Users\quang\.ivy2\cache\com.google.guava\guava\ivy-28.1-jre.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="28.1-jre" rev-constraint-default="28.1-jre" rev-constraint-dynamic="28.1-jre" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="guava" type="jar" ext="jar" status="no" details="" size="2759505" time="0" location="C:\Users\quang\.ivy2\cache\com.google.guava\guava\jars\guava-28.1-jre.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-api">
+			<revision name="2.17.1" status="release" pubdate="20240130212332" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="18">
+				<metadata-artifact status="no" details="" size="437" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.logging.log4j\log4j-api\ivy-2.17.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.17.1" rev-constraint-default="2.17.1" rev-constraint-dynamic="2.17.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="301872" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.17.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-core">
+			<revision name="2.17.1" status="release" pubdate="20240130212332" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="17">
+				<metadata-artifact status="no" details="" size="439" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.logging.log4j\log4j-core\ivy-2.17.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.17.1" rev-constraint-default="2.17.1" rev-constraint-dynamic="2.17.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="log4j-core" type="jar" ext="jar" status="no" details="" size="1790452" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.17.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.dom4j" name="dom4j">
+			<revision name="2.1.1" status="release" pubdate="20240130212327" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="16">
+				<metadata-artifact status="no" details="" size="413" time="0" location="C:\Users\quang\.ivy2\cache\org.dom4j\dom4j\ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="dom4j" type="jar" ext="jar" status="no" details="" size="323600" time="0" location="C:\Users\quang\.ivy2\cache\org.dom4j\dom4j\jars\dom4j-2.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jaxen" name="jaxen">
+			<revision name="1.1-beta-10" status="release" pubdate="20240130213026" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="15">
+				<metadata-artifact status="no" details="" size="415" time="0" location="C:\Users\quang\.ivy2\cache\jaxen\jaxen\ivy-1.1-beta-10.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.1-beta-10" rev-constraint-default="1.1-beta-10" rev-constraint-dynamic="1.1-beta-10" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="jaxen" type="jar" ext="jar" status="no" details="" size="239001" time="0" location="C:\Users\quang\.ivy2\cache\jaxen\jaxen\jars\jaxen-1.1-beta-10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jaxen/jaxen/1.1-beta-10/jaxen-1.1-beta-10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.mail" name="mail">
+			<revision name="1.4.5" status="release" pubdate="20240130212333" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="14">
+				<metadata-artifact status="no" details="" size="412" time="0" location="C:\Users\quang\.ivy2\cache\javax.mail\mail\ivy-1.4.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.4.5" rev-constraint-default="1.4.5" rev-constraint-dynamic="1.4.5" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="mail" type="jar" ext="jar" status="no" details="" size="508143" time="0" location="C:\Users\quang\.ivy2\cache\javax.mail\mail\jars\mail-1.4.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/mail/mail/1.4.5/mail-1.4.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.8.2" status="release" pubdate="20240130212331" resolver="maven-https-org" artresolver="maven-https-org" downloaded="false" searched="false" default="true" conf="default, *" position="13">
+				<metadata-artifact status="no" details="" size="409" time="0" location="C:\Users\quang\.ivy2\cache\junit\junit\ivy-4.8.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="4.8.2" rev-constraint-default="4.8.2" rev-constraint-dynamic="4.8.2" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="237344" time="0" location="C:\Users\quang\.ivy2\cache\junit\junit\jars\junit-4.8.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-slf4j-impl">
+			<revision name="2.17.1" status="release" pubdate="20240130213119" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="12">
+				<metadata-artifact status="no" details="" size="451" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.logging.log4j\log4j-slf4j-impl\ivy-2.17.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="2.17.1" rev-constraint-default="2.17.1" rev-constraint-dynamic="2.17.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="log4j-slf4j-impl" type="jar" ext="jar" status="no" details="" size="24279" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.logging.log4j\log4j-slf4j-impl\jars\log4j-slf4j-impl-2.17.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-simple">
+			<revision name="1.7.36" status="release" pubdate="20240130213119" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="11">
+				<metadata-artifact status="no" details="" size="428" time="0" location="C:\Users\quang\.ivy2\cache\org.slf4j\slf4j-simple\ivy-1.7.36.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.7.36" rev-constraint-default="1.7.36" rev-constraint-dynamic="1.7.36" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="slf4j-simple" type="jar" ext="jar" status="no" details="" size="15333" time="0" location="C:\Users\quang\.ivy2\cache\org.slf4j\slf4j-simple\jars\slf4j-simple-1.7.36.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.36" status="release" pubdate="20240130213118" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="10">
+				<metadata-artifact status="no" details="" size="422" time="0" location="C:\Users\quang\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.36.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.7.36" rev-constraint-default="1.7.36" rev-constraint-dynamic="1.7.36" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41125" time="0" location="C:\Users\quang\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.36.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.javassist" name="javassist">
+			<revision name="3.18.2-GA" status="release" pubdate="20240130213118" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="9">
+				<metadata-artifact status="no" details="" size="429" time="0" location="C:\Users\quang\.ivy2\cache\org.javassist\javassist\ivy-3.18.2-GA.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="3.18.2-GA" rev-constraint-default="3.18.2-GA" rev-constraint-dynamic="3.18.2-GA" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="javassist" type="jar" ext="jar" status="no" details="" size="714524" time="0" location="C:\Users\quang\.ivy2\cache\org.javassist\javassist\jars\javassist-3.18.2-GA.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mockito" name="mockito-all">
+			<revision name="1.10.19" status="release" pubdate="20240130213117" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="8">
+				<metadata-artifact status="no" details="" size="429" time="0" location="C:\Users\quang\.ivy2\cache\org.mockito\mockito-all\ivy-1.10.19.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.10.19" rev-constraint-default="1.10.19" rev-constraint-dynamic="1.10.19" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="mockito-all" type="jar" ext="jar" status="no" details="" size="1234599" time="0" location="C:\Users\quang\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.10.19.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.powermock" name="powermock-api-mockito-common">
+			<revision name="1.6.5" status="release" pubdate="20240130213117" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="7">
+				<metadata-artifact status="no" details="" size="463" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-api-mockito-common\ivy-1.6.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="powermock-api-mockito-common" type="jar" ext="jar" status="no" details="" size="16770" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-api-mockito-common\jars\powermock-api-mockito-common-1.6.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/powermock/powermock-api-mockito-common/1.6.5/powermock-api-mockito-common-1.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.powermock" name="powermock-reflect">
+			<revision name="1.6.5" status="release" pubdate="20240130213116" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="6">
+				<metadata-artifact status="no" details="" size="441" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-reflect\ivy-1.6.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="powermock-reflect" type="jar" ext="jar" status="no" details="" size="55639" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-reflect\jars\powermock-reflect-1.6.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/powermock/powermock-reflect/1.6.5/powermock-reflect-1.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.powermock" name="powermock-api-support">
+			<revision name="1.6.5" status="release" pubdate="20240130213116" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="5">
+				<metadata-artifact status="no" details="" size="449" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-api-support\ivy-1.6.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="powermock-api-support" type="jar" ext="jar" status="no" details="" size="20888" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-api-support\jars\powermock-api-support-1.6.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/powermock/powermock-api-support/1.6.5/powermock-api-support-1.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.powermock" name="powermock-core">
+			<revision name="1.6.5" status="release" pubdate="20240130213115" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="4">
+				<metadata-artifact status="no" details="" size="435" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-core\ivy-1.6.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="powermock-core" type="jar" ext="jar" status="no" details="" size="120156" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-core\jars\powermock-core-1.6.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/powermock/powermock-core/1.6.5/powermock-core-1.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.powermock" name="powermock-api-mockito">
+			<revision name="1.6.5" status="release" pubdate="20240130213115" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="3">
+				<metadata-artifact status="no" details="" size="449" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-api-mockito\ivy-1.6.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="powermock-api-mockito" type="jar" ext="jar" status="no" details="" size="101312" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-api-mockito\jars\powermock-api-mockito-1.6.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/powermock/powermock-api-mockito/1.6.5/powermock-api-mockito-1.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.powermock" name="powermock-api-easymock">
+			<revision name="1.6.5" status="release" pubdate="20240130213114" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="2">
+				<metadata-artifact status="no" details="" size="451" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-api-easymock\ivy-1.6.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="powermock-api-easymock" type="jar" ext="jar" status="no" details="" size="53399" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-api-easymock\jars\powermock-api-easymock-1.6.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/powermock/powermock-api-easymock/1.6.5/powermock-api-easymock-1.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.powermock" name="powermock-module-junit4-common">
+			<revision name="1.6.5" status="release" pubdate="20240130213114" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="1">
+				<metadata-artifact status="no" details="" size="467" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-module-junit4-common\ivy-1.6.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="powermock-module-junit4-common" type="jar" ext="jar" status="no" details="" size="15925" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-module-junit4-common\jars\powermock-module-junit4-common-1.6.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/1.6.5/powermock-module-junit4-common-1.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.powermock" name="powermock-module-junit4">
+			<revision name="1.6.5" status="release" pubdate="20240130213113" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="0">
+				<metadata-artifact status="no" details="" size="453" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-module-junit4\ivy-1.6.5.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-store" conf="default" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="powermock-module-junit4" type="jar" ext="jar" status="no" details="" size="46089" time="0" location="C:\Users\quang\.ivy2\cache\org.powermock\powermock-module-junit4\jars\powermock-module-junit4-1.6.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4/1.6.5/powermock-module-junit4-1.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

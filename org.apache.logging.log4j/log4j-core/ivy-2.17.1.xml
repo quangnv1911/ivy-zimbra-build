@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="org.apache.logging.log4j"
+		module="log4j-core"
+		revision="2.17.1"
+		status="release"
+		publication="20240130212332"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="log4j-core" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>

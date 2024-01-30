@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="ant-contrib"
+		module="ant-contrib"
+		revision="1.0b3"
+		status="release"
+		publication="20240130212344"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="ant-contrib" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>

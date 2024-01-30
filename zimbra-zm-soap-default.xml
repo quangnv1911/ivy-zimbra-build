@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="zimbra"
+		module="zm-soap"
+		revision="working@QuangKhongWjbu"
+		conf="default"
+		confs="default"
+		date="20240130212926"/>
+	<dependencies>
+		<module organisation="zimbra" name="zm-common">
+			<revision name="8.7.6.1706237411" status="release" pubdate="20240130212921" resolver="local" artresolver="local" downloaded="false" searched="false" default="true" conf="default, *" position="2">
+				<metadata-artifact status="no" details="" size="429" time="0" location="C:\Users\quang\.ivy2\cache\zimbra\zm-common\ivy-8.7.6.1706237411.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-soap" conf="default" rev="latest.integration" rev-constraint-default="latest.integration" rev-constraint-dynamic="latest.integration" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="zm-common" type="jar" ext="jar" status="no" details="" size="1493848" time="0" location="C:\Users\quang\.ivy2\cache\zimbra\zm-common\jars\zm-common-8.7.6.1706237411.jar">
+						<origin-location is-local="true" location="C:\Users\quang\.zcs-deps\zimbra\zm-common\zm-common-8.7.6.1706237411.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-api">
+			<revision name="2.17.1" status="release" pubdate="20240130212332" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="1">
+				<metadata-artifact status="no" details="" size="437" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.logging.log4j\log4j-api\ivy-2.17.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-soap" conf="default" rev="2.17.1" rev-constraint-default="2.17.1" rev-constraint-dynamic="2.17.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="301872" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.17.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-core">
+			<revision name="2.17.1" status="release" pubdate="20240130212332" resolver="maven-https-orgPath" artresolver="maven-https-orgPath" downloaded="false" searched="false" default="true" conf="default, *" position="0">
+				<metadata-artifact status="no" details="" size="439" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.logging.log4j\log4j-core\ivy-2.17.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="zimbra" name="zm-soap" conf="default" rev="2.17.1" rev-constraint-default="2.17.1" rev-constraint-dynamic="2.17.1" callerrev="working@QuangKhongWjbu"/>
+				<artifacts>
+					<artifact name="log4j-core" type="jar" ext="jar" status="no" details="" size="1790452" time="0" location="C:\Users\quang\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.17.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

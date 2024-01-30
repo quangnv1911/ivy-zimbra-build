@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="ews_2010"
+		module="ews_2010"
+		revision="1.0"
+		status="release"
+		publication="20240130213137"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="ews_2010" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>
